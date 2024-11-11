@@ -7,4 +7,5 @@ if __name__ == '__main__':
 
     csv_df = pd.read_csv(csv_file)
     excel_df = pd.read_excel(excel_file)
-    csv_df_2 = pd.read_csv(excel_file, sheetname = "medal_standings")
+    pd.read_csv(excel_df, sheetname = "medal_standings")
+    #csv_df_2 = pd.read_csv(csv_file, sheetname = "medal_standings")
